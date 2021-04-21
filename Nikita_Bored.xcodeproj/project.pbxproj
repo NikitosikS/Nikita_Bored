@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11857466262FD91700E0042A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11857465262FD91700E0042A /* AppDelegate.swift */; };
+		11857468262FD91700E0042A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11857467262FD91700E0042A /* SceneDelegate.swift */; };
+		1185746A262FD91700E0042A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11857469262FD91700E0042A /* ViewController.swift */; };
+		1185746D262FD91700E0042A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1185746B262FD91700E0042A /* Main.storyboard */; };
+		1185746F262FD91800E0042A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1185746E262FD91800E0042A /* Assets.xcassets */; };
+		11857472262FD91800E0042A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11857470262FD91800E0042A /* LaunchScreen.storyboard */; };
+		1185747C262FE3E600E0042A /* BoredActivityTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1185747A262FE3E600E0042A /* BoredActivityTable.xcdatamodeld */; };
+		11857480262FE4D200E0042A /* ActivityItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1185747E262FE4D200E0042A /* ActivityItem+CoreDataClass.swift */; };
+		11857481262FE4D200E0042A /* ActivityItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1185747F262FE4D200E0042A /* ActivityItem+CoreDataProperties.swift */; };
+		11857486262FED5500E0042A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11857485262FED5500E0042A /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11857462262FD91700E0042A /* Nikita_Bored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nikita_Bored.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11857465262FD91700E0042A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11857467262FD91700E0042A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11857469262FD91700E0042A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1185746C262FD91700E0042A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1185746E262FD91800E0042A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11857471262FD91800E0042A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11857473262FD91800E0042A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1185747B262FE3E600E0042A /* BoredActivityTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoredActivityTable.xcdatamodel; sourceTree = "<group>"; };
+		1185747E262FE4D200E0042A /* ActivityItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1185747F262FE4D200E0042A /* ActivityItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		11857485262FED5500E0042A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1185745F262FD91600E0042A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11857459262FD91600E0042A = {
+			isa = PBXGroup;
+			children = (
+				11857464262FD91700E0042A /* Nikita_Bored */,
+				11857463262FD91700E0042A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11857463262FD91700E0042A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11857462262FD91700E0042A /* Nikita_Bored.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11857464262FD91700E0042A /* Nikita_Bored */ = {
+			isa = PBXGroup;
+			children = (
+				11857483262FE50300E0042A /* ActivityListItem */,
+				11857465262FD91700E0042A /* AppDelegate.swift */,
+				11857467262FD91700E0042A /* SceneDelegate.swift */,
+				11857469262FD91700E0042A /* ViewController.swift */,
+				1185746B262FD91700E0042A /* Main.storyboard */,
+				1185747A262FE3E600E0042A /* BoredActivityTable.xcdatamodeld */,
+				1185746E262FD91800E0042A /* Assets.xcassets */,
+				11857470262FD91800E0042A /* LaunchScreen.storyboard */,
+				11857473262FD91800E0042A /* Info.plist */,
+				11857485262FED5500E0042A /* TableViewController.swift */,
+			);
+			path = Nikita_Bored;
+			sourceTree = "<group>";
+		};
+		11857483262FE50300E0042A /* ActivityListItem */ = {
+			isa = PBXGroup;
+			children = (
+				1185747E262FE4D200E0042A /* ActivityItem+CoreDataClass.swift */,
+				1185747F262FE4D200E0042A /* ActivityItem+CoreDataProperties.swift */,
+			);
+			path = ActivityListItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11857461262FD91600E0042A /* Nikita_Bored */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11857476262FD91800E0042A /* Build configuration list for PBXNativeTarget "Nikita_Bored" */;
+			buildPhases = (
+				1185745E262FD91600E0042A /* Sources */,
+				1185745F262FD91600E0042A /* Frameworks */,
+				11857460262FD91600E0042A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nikita_Bored;
+			productName = Nikita_Bored;
+			productReference = 11857462262FD91700E0042A /* Nikita_Bored.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1185745A262FD91600E0042A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					11857461262FD91600E0042A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 1185745D262FD91600E0042A /* Build configuration list for PBXProject "Nikita_Bored" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11857459262FD91600E0042A;
+			productRefGroup = 11857463262FD91700E0042A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11857461262FD91600E0042A /* Nikita_Bored */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11857460262FD91600E0042A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11857472262FD91800E0042A /* LaunchScreen.storyboard in Resources */,
+				1185746F262FD91800E0042A /* Assets.xcassets in Resources */,
+				1185746D262FD91700E0042A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1185745E262FD91600E0042A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1185747C262FE3E600E0042A /* BoredActivityTable.xcdatamodeld in Sources */,
+				11857486262FED5500E0042A /* TableViewController.swift in Sources */,
+				1185746A262FD91700E0042A /* ViewController.swift in Sources */,
+				11857466262FD91700E0042A /* AppDelegate.swift in Sources */,
+				11857468262FD91700E0042A /* SceneDelegate.swift in Sources */,
+				11857480262FE4D200E0042A /* ActivityItem+CoreDataClass.swift in Sources */,
+				11857481262FE4D200E0042A /* ActivityItem+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1185746B262FD91700E0042A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1185746C262FD91700E0042A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11857470262FD91800E0042A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11857471262FD91800E0042A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11857474262FD91800E0042A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11857475262FD91800E0042A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11857477262FD91800E0042A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36JQR72VVP;
+				INFOPLIST_FILE = Nikita_Bored/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Nikita-Bored";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11857478262FD91800E0042A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36JQR72VVP;
+				INFOPLIST_FILE = Nikita_Bored/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Nikita-Bored";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1185745D262FD91600E0042A /* Build configuration list for PBXProject "Nikita_Bored" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11857474262FD91800E0042A /* Debug */,
+				11857475262FD91800E0042A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11857476262FD91800E0042A /* Build configuration list for PBXNativeTarget "Nikita_Bored" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11857477262FD91800E0042A /* Debug */,
+				11857478262FD91800E0042A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1185747A262FE3E600E0042A /* BoredActivityTable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1185747B262FE3E600E0042A /* BoredActivityTable.xcdatamodel */,
+			);
+			currentVersion = 1185747B262FE3E600E0042A /* BoredActivityTable.xcdatamodel */;
+			path = BoredActivityTable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1185745A262FD91600E0042A /* Project object */;
+}

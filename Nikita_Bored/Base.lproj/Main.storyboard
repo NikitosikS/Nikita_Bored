@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nikita_Bored" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="final_background" translatesAutoresizingMaskIntoConstraints="NO" id="az0-7c-BLx">
+                                <rect key="frame" x="0.0" y="-25" width="414" height="921"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Activity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2PA-Vb-Hmq">
+                                <rect key="frame" x="104" y="94" width="207" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6oF-RM-xxZ">
+                                <rect key="frame" x="57" y="155" width="299" height="212"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="highlightedColor" systemColor="labelColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2Z-Ap-aPq">
+                                <rect key="frame" x="104" y="410" width="207" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Show Another Activity"/>
+                                <connections>
+                                    <action selector="anotherActivityClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xb7-Vu-3Np"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hH4-C3-jrs">
+                                <rect key="frame" x="102" y="481" width="209" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Add To Favorite"/>
+                                <connections>
+                                    <action selector="addActivityClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iyy-Nz-f8F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJ3-KA-tem">
+                                <rect key="frame" x="104" y="546" width="207" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="See All Favorite Activities"/>
+                                <connections>
+                                    <action selector="changeView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b40-8b-Yeq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2PA-Vb-Hmq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104" id="4Ej-wP-Hng"/>
+                            <constraint firstItem="6oF-RM-xxZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="4Q7-cF-Ikg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6oF-RM-xxZ" secondAttribute="bottom" constant="495" id="DRY-KU-5SB"/>
+                            <constraint firstItem="K2Z-Ap-aPq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104" id="HGG-Wu-fef"/>
+                            <constraint firstItem="K2Z-Ap-aPq" firstAttribute="top" secondItem="6oF-RM-xxZ" secondAttribute="bottom" constant="43" id="Jjd-c1-VXg"/>
+                            <constraint firstItem="2PA-Vb-Hmq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="QCD-ph-fat"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="az0-7c-BLx" secondAttribute="trailing" id="QFO-Bv-3JH"/>
+                            <constraint firstItem="hH4-C3-jrs" firstAttribute="top" secondItem="K2Z-Ap-aPq" secondAttribute="bottom" constant="24" id="R4G-Cl-w9D"/>
+                            <constraint firstItem="az0-7c-BLx" firstAttribute="top" secondItem="2PA-Vb-Hmq" secondAttribute="bottom" constant="-153" id="SgV-G7-9qS"/>
+                            <constraint firstItem="WJ3-KA-tem" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104" id="TaT-Wu-E5R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K2Z-Ap-aPq" secondAttribute="trailing" constant="103" id="V9y-la-o0G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="K2Z-Ap-aPq" secondAttribute="bottom" constant="405" id="WcX-Dl-b3q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hH4-C3-jrs" secondAttribute="bottom" constant="337" id="aIV-zR-Eef"/>
+                            <constraint firstItem="az0-7c-BLx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dSF-N5-Oqx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6oF-RM-xxZ" secondAttribute="trailing" constant="58" id="f2J-pT-I1Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WJ3-KA-tem" secondAttribute="bottom" constant="269" id="fn6-8z-Y4l"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2PA-Vb-Hmq" secondAttribute="trailing" constant="103" id="gew-g7-6e8"/>
+                            <constraint firstItem="6oF-RM-xxZ" firstAttribute="top" secondItem="2PA-Vb-Hmq" secondAttribute="bottom" constant="27" id="iNG-Is-OUg"/>
+                            <constraint firstItem="hH4-C3-jrs" firstAttribute="top" secondItem="az0-7c-BLx" secondAttribute="bottom" constant="-415" id="jSJ-yy-Uin"/>
+                            <constraint firstItem="WJ3-KA-tem" firstAttribute="top" secondItem="hH4-C3-jrs" secondAttribute="bottom" constant="21" id="pVq-dD-1lc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hH4-C3-jrs" secondAttribute="trailing" constant="103" id="t5z-6m-aeg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2PA-Vb-Hmq" secondAttribute="bottom" constant="734" id="tHT-4o-XVm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WJ3-KA-tem" secondAttribute="trailing" constant="103" id="wVm-sj-Yc5"/>
+                            <constraint firstItem="hH4-C3-jrs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="102" id="zto-Qq-zAa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addFavoriteBtn" destination="hH4-C3-jrs" id="lnW-8v-7fo"/>
+                        <outlet property="allFavoriteBtn" destination="WJ3-KA-tem" id="qdn-qe-eWM"/>
+                        <outlet property="anotherActivityBtn" destination="K2Z-Ap-aPq" id="kO4-en-2qL"/>
+                        <outlet property="lblOutput" destination="6oF-RM-xxZ" id="WZf-4h-T1T"/>
+                        <segue destination="h0P-K6-iDf" kind="presentation" identifier="activ" id="CGG-Jd-Tom"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="omk-VT-SRC">
+            <objects>
+                <viewController storyboardIdentifier="table_vc" id="h0P-K6-iDf" customClass="TableViewController" customModule="Nikita_Bored" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WG5-AV-QZG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Z2H-P2-G6O"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="35o-Oc-U6u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="925" y="78"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="final_background" width="640" height="1160"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
